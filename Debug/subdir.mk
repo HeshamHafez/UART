@@ -6,17 +6,20 @@
 C_SRCS += \
 ../main.c \
 ../reg_file.c \
-../uart.c 
+../uart.c \
+../uart_cfg.c 
 
 OBJS += \
 ./main.o \
 ./reg_file.o \
-./uart.o 
+./uart.o \
+./uart_cfg.o 
 
 C_DEPS += \
 ./main.d \
 ./reg_file.d \
-./uart.d 
+./uart.d \
+./uart_cfg.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
